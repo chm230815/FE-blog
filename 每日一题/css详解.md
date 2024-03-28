@@ -1,7 +1,4 @@
-## 1. [html] 页面导入样式时，使用link和@import有什么区别？
-1. link 是可以引入外部资源的 @import是智能引入内部静态资源 而且属于代码执行中的引入
-
-## 2. [css] 圣杯布局和双飞翼布局的理解和区别，并用代码实现
+## 1. [css] 圣杯布局和双飞翼布局的理解和区别，并用代码实现
 这两个都是三栏布局 都是中间自适应 两边固定 核心是驱赶部分在最上边 最先显示
 区别:
 1. 圣杯布局 在一个盒子内部 通过padding + 浮动 + 位置变化 将整个三栏挤到一行中
@@ -62,7 +59,6 @@
 </html>
 ```
 
-
 ```html
 // 双飞翼布局
 <!DOCTYPE html>
@@ -116,13 +112,4 @@
   <div class="floot"> floot </div>
 </body>
 </html>
-```
-## 3. [js] 用递归算法实现，数组长度为5且元素的随机数在2-32间不重复的值
-```js
-const arr = new Set()
-while(arr.size < 5){
-  arr.add(Math.round(Math.random() * 30 + 2))
-}
-const arr2 = [...arr]
-console.log(arr2)
 ```
